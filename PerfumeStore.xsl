@@ -6,55 +6,9 @@
             <title>Perfume Store</title>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
             <style>
-				XML {
-					display:none;
-				}
-				body {
-					font-family: Arial, Helvetica, sans-serif;
-					background-color: #FFFFFF;
-					margin: 5px;
-					text-align: left;
-					color: #523819;
-				}
-				h2 {
-					font-size: 140%;
-                    color: #0D3427;
-                    text-align: center;
-					margin-top: 10px;
-				}
-				p {
-					font-size: 80%;
-					color: #523819;
-				}
-				table {
-					background-color: #B2D4E6;
-					border-color: #000000;
-					border-width: thin;
-					border-collapse: collapse;
-					width: 75%;
-				}
-				th {
-					border-color: #000000;
-					font-size: 120%;
-					color: #0D3427;
-				}
-				td {
-					border-color: #000000;
-					font-size: 100%;
-					color: #523819;
-					padding: 5px;
-				}
-				img {
-					float: left;
-					margin-left: 10px;
-					margin-right: 10px;
-					border: 0px;
-				}
-				.indent {
-					margin-left: 78px;
-				}
+				
 			</style>
-			
+			<script type="text/javascript" src="PerfumeStore.js"></script>> 
         </head>
             <body>
                 <h2>Best Gift Perfume Store</h2>
