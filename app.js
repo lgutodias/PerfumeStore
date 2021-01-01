@@ -3,7 +3,7 @@ var http = require('http'),
     express = require('express'),
     fs = require('fs'),
     xmlParse = require('xslt-processor').xmlParse,
-    xslProcess = require('xslt-processor').xsltProcess;
+    xsltProcess = require('xslt-processor').xsltProcess;
 
 var router = express();
 var server = http.createServer(router);
