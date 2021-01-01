@@ -1,9 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="PerfumeStore.xsl"?>
 <perfume_catalog>
-    <perfume>
-        <brand></brand>
-        <name></name>
-        <size></size>
-        <price></price>
-    </perfume>
+    <section name = "Women's Perfume">
+        <perfume sale = "true">
+            <item>Paco Rabanne</item>
+            <price>90.00</price>
+        </perfume>
+        <perfume>
+            <item>Gucci</item>
+            <price>125.00</price>
+        </perfume>
+        <perfume>
+            <item>Carolina Herrera</item>
+            <price>102.00</price>
+        </perfume>
+        <perfume>
+            <item>Versace</item>
+            <price>66.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <item>Yves Saint Laurent</item>
+            <price>65.00</price>
+        </perfume>
+        <perfume>
+            <item>Armani</item>
+            <price>48.00</price>
+        </perfume>
+        <perfume>
+            <item>Chanel</item>
+            <price>132.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <item>Calvin Klein</item>
+            <price>30.00</price>
+        </perfume>
+    </section>
+    <section name = "Men's Perfume">
+        <perfume>
+            <item>Hugo Boss</item>
+            <price>53.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <item>Dior</item>
+            <price>95.00</price>
+        </perfume>
+        <perfume>
+            <item>Paco Rabanne</item>
+            <price>79.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <item>Chanel</item>
+            <price>105.00</price>
+        </perfume>
+        <perfume>
+            <item>Versace</item>
+            <price>47.00</price>
+        </perfume>
+        <perfume>
+            <item>Ralph Lauren</item>
+            <price>62.00</price>
+        </perfume>
+        <perfume sale = "true">
+            <item>Armani</item>
+            <price>55.00</price>
+        </perfume>
+        <perfume>
+            <item>Gucci</item>
+            <price>97.00</price>
+        </perfume>
+    </section>
 </perfume_catalog>
