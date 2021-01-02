@@ -38,7 +38,7 @@ function highlightSale(idTable, bShowSale) {
     // walk through each of the table rows and see if it has a 
     // "vegetarian" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('sale') && aTRs[i].getAttribute('sale') == "true") {
+        if (aTRs[i].getAttribute('sale') == "true") {
             if (bShowSale) {
                 aTRs[i].style.backgroundColor = "rgb(207,181,59)";
             } else {
@@ -58,13 +58,3 @@ function getParentTag(oNode, sParentType) {
     };
     return oParent;
 };
-
-window.addEventListener("load", function () {
-    document.forms[0].txtBillAmt.value = calculateBill('perfumeTable');
-    document.querySelector("#calcBill").addEventListener("click", function () {
-        document.forms[0].txtBillAmt.value = calculateBill('perfumeTable');
-    });
-    document.querySelector("#showSale").addEventListener("click", function () {
-        highlightSale('perfumeTable', this.checked);
-    });
-});
