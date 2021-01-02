@@ -4,18 +4,20 @@
         <table id="perfumeTable" border="1" class="indent">
             <thead>
                 <tr>
-                    <th colspan="3">Perfume Store Items</th>
+                    <th colspan="5">Perfume Store Items</th>
                 </tr>
                 <tr>
                     <th>Select</th>
-                    <th>Item</th>
+                    <th>Brand</th>
+                    <th>Name</th>
+                    <th>Size</th>
                     <th>Price</th>
                 </tr>
             </thead>
             <tbody>
                 <xsl:for-each select="/perfume_catalog/section">
                     <tr>
-                        <td colspan="3">
+                        <td colspan="5">
                             <xsl:value-of select="@name" />
                         </td>
                     </tr>
@@ -28,7 +30,13 @@
                                 <input name="item0" type="checkbox" />
                             </td>
                             <td>
-                                <xsl:value-of select="item" />
+                                <xsl:value-of select="brand" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="name" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="size" />
                             </td>
                             <td align="right">
                                 <xsl:value-of select="price" />

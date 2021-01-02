@@ -3,69 +3,101 @@
 <perfume_catalog>
     <section name = "Women's Perfume">
         <perfume sale = "true">
-            <item>Paco Rabanne</item>
+            <brand>Paco Rabanne</brand>
+            <name>Olympea</name>
+            <size>80ml</size>
             <price>90.00</price>
         </perfume>
         <perfume>
-            <item>Gucci</item>
+            <brand>Gucci</brand>
+            <name>Bamboo</name>
+            <size>75ml</size>
             <price>125.00</price>
         </perfume>
         <perfume>
-            <item>Carolina Herrera</item>
+            <brand>Carolina Herrera</brand>
+            <name>Good Girl</name>
+            <size>80ml</size>
             <price>102.00</price>
         </perfume>
         <perfume>
-            <item>Versace</item>
+            <brand>Versace</brand>
+            <name>Vanitas</name>
+            <size>100ml</size>
             <price>66.00</price>
         </perfume>
         <perfume sale = "true">
-            <item>Yves Saint Laurent</item>
+            <brand>Yves Saint Laurent</brand>
+            <name>Paris</name>
+            <size>125ml</size>
             <price>65.00</price>
         </perfume>
         <perfume>
-            <item>Armani</item>
+            <brand>Armani</brand>
+            <name>Diamonds Rose</name>
+            <size>50ml</size>
             <price>48.00</price>
         </perfume>
         <perfume>
-            <item>Chanel</item>
+            <brand>Chanel</brand>
+            <name>Coco Mademoiselle</name>
+            <size>100ml</size>
             <price>132.00</price>
         </perfume>
         <perfume sale = "true">
-            <item>Calvin Klein</item>
+            <brand>Calvin Klein</brand>
+            <name>Eternity Moment</name>
+            <size>100ml</size>
             <price>30.00</price>
         </perfume>
     </section>
     <section name = "Men's Perfume">
         <perfume>
-            <item>Hugo Boss</item>
+            <brand>Hugo Boss</brand>
+            <name>Boss Bottled Night</name>
+            <size>100ml</size>
             <price>53.00</price>
         </perfume>
         <perfume sale = "true">
-            <item>Dior</item>
+            <brand>Dior</brand>
+            <name>Sauvage</name>
+            <size>100ml</size>
             <price>95.00</price>
         </perfume>
         <perfume>
-            <item>Paco Rabanne</item>
+            <brand>Paco Rabanne</brand>
+            <name>Invictus</name>
+            <size>100ml</size>
             <price>79.00</price>
         </perfume>
         <perfume sale = "true">
-            <item>Chanel</item>
+            <brand>Chanel</brand>
+            <name>Bleu de Chanel</name>
+            <size>100ml</size>
             <price>105.00</price>
         </perfume>
         <perfume>
-            <item>Versace</item>
+            <brand>Versace</brand>
+            <name>Pour Homme</name>
+            <size>100ml</size>
             <price>47.00</price>
         </perfume>
         <perfume>
-            <item>Ralph Lauren</item>
+            <brand>Ralph Lauren</brand>
+            <name>Polo Red</name>
+            <size>75ml</size>
             <price>62.00</price>
         </perfume>
         <perfume sale = "true">
-            <item>Armani</item>
+            <brand>Armani</brand>
+            <name>Diamonds For Men</name>
+            <size>75ml</size>
             <price>55.00</price>
         </perfume>
         <perfume>
-            <item>Gucci</item>
+            <brand>Gucci</brand>
+            <name>Guilty</name>
+            <size>90ml</size>
             <price>97.00</price>
         </perfume>
     </section>
