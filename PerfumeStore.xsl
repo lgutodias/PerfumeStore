@@ -5,10 +5,8 @@
         <head>
             <title>Perfume Store</title>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-            <style>
-				
-			</style>
-			<script type="text/javascript" src="PerfumeStore.js"></script>> 
+            <link rel="stylesheet" href="css/PerfumeStore.css" />
+			<script type="text/javascript" src="js/PerfumeStore.js">#</script> 
         </head>
             <body>
                 <h2>Best Gift Perfume Store</h2>
