@@ -35,7 +35,7 @@
                             <td>
                                 <xsl:value-of select="name" />
                             </td>
-                            <td>
+                            <td align="center">
                                 <xsl:value-of select="size" />
                             </td>
                             <td align="right">

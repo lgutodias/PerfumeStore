@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="PerfumeStore.xsl"?>
-<perfume_catalog>
+<perfume_catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="PerfumeStore.xsd">
     <section name = "Women's Perfume">
         <perfume sale = "true">
             <brand>Paco Rabanne</brand>
