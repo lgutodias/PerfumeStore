@@ -1,15 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/ps_background.jpg);
+    /* background-image: url(../img/ps_background.jpg); */
+    background-image: url(../img/ps_background\ red.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:unset;
     margin: 5px;
-    text-align: left;
-    color: #523819;
+    /* text-align: left;
+    color: #523819; */
 }
 .navbar {
-    background-color: #EBBC6F;
+    background-color: rgb(235, 188, 111, 0.8);
+    /* background-color: rgb(154, 160, 146, 0.8); */
+    color: #FFF;
+    height: 65px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -30,8 +34,8 @@ p {
     color: white;
 }
 table {
-    background-color:white;
-    opacity: 0.80;
+    /* background-color: #FFF; */
+    /* opacity: 0.80; */
     border-color: black;
     /* border-width: thin; */
     /* border-collapse: collapse; */
@@ -39,21 +43,21 @@ table {
     width: 100%;
 }
 #results {
-    background-color: white;
+    /* background-color: rgb(235, 188, 111, 0.55); */
+    background-color: rgb(255, 255, 255, 0.7);
     width: 100%;
     border-radius: 7px;
-    border-color:  red;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
-.col-sm-8{
-    background-color: #021341;
+.col-lg-8{
+    /* background-color: rgb(0, 4, 24, 0.75); */
+    background-color: rgb(96, 0, 25, 0.5);
     padding-top: 15px;
-    opacity: 0.85;
 }
-.col-sm-4 {
-    background-color: #021341;
+.col-lg-4 {
+    /* background-color: rgb(0, 4, 24, 0.75); */
+    background-color: rgb(96, 0, 25, 0.5);
     padding-top: 17px;
-    opacity: 0.85;
 }
 /* #results {
     background-color: white;
@@ -110,10 +114,13 @@ img {
     margin-bottom: 2%;
 }
 footer {
-    background-color: #EBBC6F;
+    background-color: rgb(235, 188, 111, 0.8);
     color: white;
-    height: 50px;
-    line-height: 50px;
+    height: 65px;
+    line-height: 65px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.text-muted{
+    color: #FFF;
 }
