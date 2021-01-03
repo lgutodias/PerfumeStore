@@ -11,23 +11,26 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- Brand/logo -->
-        <a class="navbar-brand" href="#">
-            <img src="./img/logo.png" alt="logo">
-        </a>
-
-        <!-- Links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-            </li>
-        </ul>
+        <div class="container text-left">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
     <div class="container">
+        <div class="row">
+            <div class="col-lg12">
+                <h1>Your perfect gift is here!</h1>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-8">
                 <div id="results" class="table-hover"></div>
@@ -37,7 +40,7 @@
                             <span class="input-group-text">Total &euro;</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Total" name="txtBillAmt">
-                        <input class="btn btn-block btn-secondary mt-2" type="button" name="btnCalcBill"
+                        <input class="btn btn-block btn-calc mt-2" type="button" name="btnCalcBill"
                             value="Calculate Bill" id="calcBill">
                     </div>
                 </form>
@@ -49,27 +52,32 @@
                         <label>Highlight items on sale</label>
                     </div>
                 </form>
-                <form enctype="application/json" action="/post/json" method="post">
-                    <div class="form-group">
-                        <select class="form-control" name="sec_n">
-                            <option value="0">Women's Perfumes</option>
-                            <option value="1">Men's Perfumes</option>
-                        </select>
-                        <input class="form-control mt-3" type="text" name="brand" placeholder="Brand">
-                        <input class="form-control mt-3" type="text" name="name" placeholder="Name">
-                        <input class="form-control mt-3" type="text" name="size" placeholder="Size">
-                        <input class="form-control mt-3" type="text" name="price" placeholder="Price">
-                        <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
+                <div class="content-box">
+                    <div class="container">
+                        <p>Add new items to our perfume catalog:</p>
+                        <form enctype="application/json" action="/post/json" method="post">
+                            <div class="form-group">
+                                <select class="form-control" name="sec_n">
+                                    <option value="0">Women's Perfumes</option>
+                                    <option value="1">Men's Perfumes</option>
+                                </select>
+                                <input class="form-control mt-3" type="text" name="brand" placeholder="Brand">
+                                <input class="form-control mt-3" type="text" name="name" placeholder="Name">
+                                <input class="form-control mt-3" type="text" name="size" placeholder="Size">
+                                <input class="form-control mt-3" type="text" name="price" placeholder="Price">
+                                <button type="submit" class="btn btn-save btn-block mt-3">Save</button>
+                            </div>
+                        </form>
+                        <p>Delete items from our perfume catalog, select the item in the table and press delete.</p>
+                        <button id="delete" class="btn btn-delete btn-block mt-3">Delete</button>
                     </div>
-                </form>
-                <button id="delete" class="btn btn-danger btn-block mt-3">Delete</button>
+                </div>
             </div>
         </div>
     </div>
     <footer class="footer">
         <div class="container text-left"><span class="text-muted">&copy; 2021 Luiz Dias All Rights Reserved.</span>
         </div>
-        <!-- <p>© 2021 Luiz Dias All Rights Reserved.</p> -->
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.map"></script>
